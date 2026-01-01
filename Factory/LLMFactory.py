@@ -19,11 +19,11 @@ class ModelFactory:
             self.__BaseURL = config.get("deepResearchApi","base_url")
             self.__ModelName = config.get("deepResearchApi","model_name")
         elif(purpose == "socialSimulate"):
-            self.__LLMApiKey = os.getenv("API_KEY_TJUNLP")
+            self.__LLMApiKey = os.getenv("API_KEY_EXTERNAL")
             self.__BaseURL = config.get("socialSimulateApi", "base_url")
             self.__ModelName = config.get("socialSimulateApi", "model_name")
         elif(purpose == "dataSet"):
-            self.__LLMApiKey = os.getenv("API_KEY_TJUNLP")
+            self.__LLMApiKey = os.getenv("API_KEY_EXTERNAL")
             self.__BaseURL = config.get("dataSetAssistAPI", "base_url")
             self.__ModelName = config.get("dataSetAssistAPI", "model_name")
         elif (purpose == "codeGeneration"):

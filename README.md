@@ -6,7 +6,7 @@ This is the complete operation guide for the MASS Deep Research Agent framework,
 
 1. Download the cold-start dataset files from Hugging Face and place them in the `embeddingData` folder in the project root directory. Dataset link:
 
-   https://huggingface.co/datasets/yongruigogogo/MASS_Cold-Start_Dataset
+  `The dataset is not open-source for now due to anonymity reasons.`
 
 2. Open and modify the file `/Utils/Tools.py`, replacing the embedded model address with your local/privately deployed model address.
 
